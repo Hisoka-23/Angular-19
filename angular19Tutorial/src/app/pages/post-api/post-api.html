@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="row mt-2">
+    <div class="col-8 text-center">
+        <h2 id="heading">POST API Integration using Template Form</h2>
+    </div>
+    <div class="col-4">
+        <button (click)="getCarList()" id="heading" class="btn btn-success">Get Car List</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-7">
+        <div class="card">
+            <div class="card-header bg-warning">
+                <h5>Car List</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Sr no</th>
+                            <th>name</th>
+                            <th>userName</th>
+                            <th>email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (item of CarList; track $index) {
+                            <tr>
+                                <td>{{$index + 1}}</td>
+                                <td>{{item.name}}</td>
+                                <td>{{item.username}}</td>
+                                <td>{{item.email}}</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-5">
+        <div class="card">
+            <div class="card-header bg-warning">
+                <h5>Create New Car</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6 mt-2">
+                        <label>user Id</label>
+                        <input type="text" [(ngModel)]="carObj.userId" class="Form" placeholder="enter ">
+                    </div>
+                    <div class="col-6 mt-2">
+                        <label>id</label>
+                        <input type="text" [(ngModel)]="carObj.id" placeholder="enter ">
+                    </div>
+                    <div class="col-6 mt-2">
+                        <label>title</label>
+                        <input type="text" [(ngModel)]="carObj.title" placeholder="enter ">
+                    </div>
+                    <div class="col-6 mt-2">
+                        <label>body</label>
+                        <input type="text" [(ngModel)]="carObj.body" placeholder="enter ">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mt-2 text-center">
+                        <button class="btn btn-secondary m-2">Reset Form</button>
+                        <button class="btn btn-success m-2" (click)="onSaveUser()">Save Form</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>

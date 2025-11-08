@@ -1,0 +1,26 @@
+<header class="p-3 text-bg-dark">
+  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+      Angular 19
+    </a>
+    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+      <li><a routerLink="admin" class="nav-link px-2 text-white">Admin</a></li>
+      <li><a [routerLink]="'user'" class="nav-link px-2 text-white">User</a></li>
+      <li><a routerLink="ng-class" class="nav-link px-2 text-white">Ng Class</a></li>
+      <li><a routerLink="control-statement" class="nav-link px-2 text-white">control statement</a></li>
+      <li><a routerLink="linked-signal" class="nav-link px-2 text-white">Linked signal</a></li>
+      <li><a routerLink="ng-for" class="nav-link px-2 text-white">Ng for</a></li>
+      <li><a routerLink="ng-if" class="nav-link px-2 text-white">Ng if</a></li>
+      <li><a routerLink="ng-style" class="nav-link px-2 text-white">Ng style</a></li>
+      <li><a routerLink="ng-signal" class="nav-link px-2 text-white">Ng signal</a></li>
+      <li><a routerLink="templateForm" class="nav-link px-2 text-white">Template Form</a></li>
+      <li><a routerLink="reactiveForm" class="nav-link px-2 text-white">Reactive Form</a></li>
+      <li><a routerLink="getApi" class="nav-link px-2 text-white">Get API</a></li>
+      <li><a routerLink="postApi" class="nav-link p-2 text-white">Post API</a></li>
+      <li><a routerLink="resourceApi" class="nav-link p-2 text-white">Resource API</a></li>
+      <li><a routerLink="customer" class="nav-link p-2 text-white">Customer</a></li>
+    </ul>
+  </div>
+</header>
+
+<router-outlet></router-outlet>

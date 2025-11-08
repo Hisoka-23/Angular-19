@@ -1,0 +1,156 @@
+------------------------------------------------------------------------------------------------
+data binding ?
+
+how to Declare Variable / state in Component?
+What is Data Binding?
+What is One Way Data Binding?
+	interpolation
+	propertyBinding
+	event binding
+
+What is Two way data Binding ?
+	using ngModel directive
+
+------------------------------------------------------------------------------------------------
+what is Directive ?
+
+what is Type of Directive ?
+
+What are Structural Directive?
+	*ngIf
+	*ngFor
+
+--------------------------------------------------------------------------------------------------
+How to add Dynamic class
+How to add Dynamic css 
+What are Attribute Directive
+	[ngClass]
+	[ngClass]
+
+--------------------------------------------------------------------------------------------------
+what is Control flow Statement ?
+From which version we got control flow statement? -Angular 17
+How to use @if, @else if, @else
+How to use @for
+
+--------------------------------------------------------------------------------------------------
+What is Signal ?
+How to create Signal?
+How to Access Signal Value?
+How to Update Signal Value? using set, update method?
+
+--------------------------------------------------------------------------------------------------
+
+what is Linked signals ?
+How to create Linked signal ?
+What is computation and equal in Linked Signal ?
+
+--------------------------------------------------------------------------------------------------
+
+what is Routing ?
+How to create Routes ?
+Default Route
+How to do Navigation in Angular?
+what is router-outlet?
+What is RouterLink ?
+
+--------------------------------------------------------------------------------------------------
+
+Part-10 : Template Form
+
+-Form type in angular?
+-How to create Template Form?
+-How to Validate Template Form?
+-Use of ngModel in Template Form?
+
+--------------------------------------------------------------------------------------------------
+
+Part 11 : Reactive Form
+
+-How to Create Reactive Form?
+-How to validate Reactive Form?
+-What is Form Control?
+-How to Disable Form Control?
+
+--------------------------------------------------------------------------------------------------
+
+	Part-12 : API Call Integration (Get api)
+
+-What is API?
+-What is HttpClient or fetch ?
+-How to Integrate GET API call ?
+-How to Store api Response ?
+-What are Fake API ?
+
+API Method
+	GET => get records
+	POST => to create record
+	PUT => to update existing
+	DELETE => to delete existing
+
+	patch => to update particular record
+
+---------------------------------------------------------------------------------------------------
+
+	Part-13 : API Call Integration (POST API)
+
+-What is POST API ?
+-HOW to Integrate POST API ?
+-POST API with form ?
+
+------------------------------------------------------------------------------------------------------
+
+	Part-14: API Call Integration (PUT API)
+
+-What is PUT API ?
+-How to Integrate PUT API ?
+-How to Update Data ?
+
+
+------------------------------------------------------------------------------------------------------------
+	Part-15: API Call Integration (Delete API)
+
+-What is Delete API ?
+-How to Integrate PDelete API?
+-How to Delete Data ?
+-How to show Confirmation Before Deleteting ?
+
+------------------------------------------------------
+
+	Part-16 : resource API in angular
+-What is resource API ?
+-How to use resource API ?
+-How to refresh / reload ?
+-What is Loader ?
+
+This is Major New Feature in Angular 19 
+
+---------------------------------------------------------------
+
+	Part-15 : Service In Angular 
+		Angular CRUD with API (Complete)
+
+What is Service ?
+For Which Purpose we have to use Service ?
+Angular CRUD Operation (with Service).
+
+check Object?
+1) Design Ui
+2) Create IObject and bind it to form
+3) Create Service => write api call function
+4) in component call those function and complete Crud operation
+5) Add validation
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

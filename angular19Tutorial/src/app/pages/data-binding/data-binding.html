@@ -1,0 +1,51 @@
+<button class="btn btn-success" (click)="navigateToAdmin()"> to the admin</button>
+
+<div class="row">
+    <div class="col-6">
+        1.interpolation: 
+        <p>first Name => {{firstName}}</p>
+        <div>
+            Roll NO => {{rollno}}
+        </div>
+        <span>isActive => {{isAcitve}}</span>
+    </div>
+    <div class="col-6">
+        property binding:
+        <br>
+        <input type="text" [value]="firstName" name="" id="">
+        <br>
+        <input type="text" [placeholder]="myPlaceholder" name="" id="">
+        <br>
+        <div [class]="div1ClassName" style="width: 100px; height: 100px;">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <button class="btn btn-success" (click)="showWelcomeMessage()">Show Welcome Text</button>
+    </div>
+    <div class="col-3">
+        <select (change)="onCityChange()">
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="delhi">Delhi</option>
+        </select>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <input type="text" [(ngModel)]="firstName" name="" id="">
+    </div>
+    <div class="col-3">
+         <select [(ngModel)]="selectedCity">
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="delhi">Delhi</option>
+        </select>
+        -{{selectedCity}}
+    </div>
+</div>
