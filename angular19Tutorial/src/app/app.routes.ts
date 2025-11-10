@@ -16,6 +16,7 @@ import { GetApi } from './pages/get-api/get-api';
 import { PostApi } from './pages/post-api/post-api';
 import { ResourceApi } from './pages/resource-api/resource-api';
 import { Customer } from './pages/customer/customer';
+import { LifeCycle } from './pages/life-cycle/life-cycle';
 
 export const routes: Routes = [
 
@@ -87,6 +88,10 @@ export const routes: Routes = [
     {
         path: 'customer',
         component: Customer
+    },
+    {
+        path: 'lifeCycle',
+        component: LifeCycle
     },
 
 ];

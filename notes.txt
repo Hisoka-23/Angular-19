@@ -142,9 +142,24 @@ check Object?
 5) Add validation
 ---------------------------------------------------------------
 
+	Part-17 : Component Life Cycle Events
 
+-What are Life Cycle Events?
+-Types of Life cycle Events?
+-Which one We mostly Use and Their UseCase ?
 
+ngOnInit
+ngAfterView
 
+----------------------------------------------------------------	
+
+	Topic: Pipes
+
+-What are Pipes?
+-Where we should use Pipe?
+-How to create Custom Pipe?
+
+-------------------------------------------------------------------
 
 
 
