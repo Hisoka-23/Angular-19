@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { Car, ICarList } from '../../model/car';
 
 @Component({
   selector: 'app-post-api',
@@ -11,14 +12,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class PostApi {
 
-  CarList: any[] = [];
+  CarList: ICarList[] = [];
 
-  carObj: any = {
-    "userId": 0,
-    "id": 0,
-    "title": "",
-    "body": "", 
-  };
+  carObj: Car = new Car();
 
   // constructor(private http: HttpClient){
 

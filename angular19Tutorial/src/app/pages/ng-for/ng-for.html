@@ -74,6 +74,7 @@
                     <th>Name</th>
                     <th>City</th>
                     <th>Mobile No</th>
+                    <th>Attendance</th>
                 </tr>
             </thead>
             <tbody>
@@ -82,8 +83,17 @@
                     <td>{{emp.name | myPipe}}</td>
                     <td>{{emp.city | uppercase}}</td>
                     <td>{{emp.contactNo}}</td>
+                    <td>
+                        <app-progress-bar [progressValue]="emp.attendance"></app-progress-bar>
+                    </td>
                 </tr>
             </tbody>
         </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <app-tabs [tubList]="['Car', 'List', 'New Car', 'Form']" (onTabClicked)="onTabChange($event)" ></app-tabs>
     </div>
 </div>

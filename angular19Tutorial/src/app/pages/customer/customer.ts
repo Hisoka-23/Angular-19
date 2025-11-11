@@ -1,15 +1,19 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CustomerService } from '../../services/customer-service';
+import { ProgressBar } from "../../reuseable/progress-bar/progress-bar";
+import { Tabs } from "../../reuseable/tabs/tabs";
 
 @Component({
   selector: 'app-customer',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, ProgressBar, Tabs],
   templateUrl: './customer.html',
   styleUrl: './customer.css',
 })
 export class Customer {
+
+  customerTabs: string[] = ['Basic Info', 'Plan Info', 'misc info', 'follow info'];
 
   customerObj: any = {
     "customerId": 0,

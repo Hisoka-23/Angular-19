@@ -161,9 +161,17 @@ ngAfterView
 
 -------------------------------------------------------------------
 
+	Topic: @Input(), @Output(), EvenEmitter
+-What is @Input?
+-What is @Output?
+-How to create Reusable Component?
 
+--------------------------------------------------------------------
 
-
+	Topic: interface & class
+-How to create interface ?
+-how to create class ?
+-when to use class or interface ?
 
 
 
