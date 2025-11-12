@@ -4,7 +4,7 @@ import { Component, resource } from '@angular/core';
 @Component({
   selector: 'app-resource-api',
   standalone: true,
-  imports: [JsonPipe],
+  imports: [],
   templateUrl: './resource-api.html',
   styleUrl: './resource-api.css',
 })

@@ -1,0 +1,7 @@
+<form class="login">
+  <h2>Welcome, User!</h2>
+  <p>Please log in</p>
+  <input type="text" name="username" [(ngModel)]="logInObj.username" placeholder="User Name" />
+  <input type="password" name="password" [(ngModel)]="logInObj.password" placeholder="Password" />
+  <input type="submit" (click)="onLogin()" value="Log In" />
+</form>

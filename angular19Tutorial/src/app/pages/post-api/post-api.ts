@@ -12,7 +12,9 @@ import { Car, ICarList } from '../../model/car';
 })
 export class PostApi {
 
-  CarList: ICarList[] = [];
+  //CarList: ICarList[] = [];
+
+  CarList: any[] = [];
 
   carObj: Car = new Car();
 

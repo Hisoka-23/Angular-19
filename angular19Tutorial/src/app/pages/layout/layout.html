@@ -1,0 +1,36 @@
+<header class="p-3 text-bg-dark">
+  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+    <a routerLink="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+      Angular 19
+    </a>
+
+    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+      <li><a routerLink="admin" routerLinkActive="active" class="nav-link px-2 text-white">Admin</a></li>
+      <li><a routerLink="user" routerLinkActive="active" class="nav-link px-2 text-white">User</a></li>
+      <li><a routerLink="ng-class" routerLinkActive="active" class="nav-link px-2 text-white">Ng Class</a></li>
+      <li><a routerLink="control-statement" routerLinkActive="active" class="nav-link px-2 text-white">Control
+          Statement</a></li>
+      <li><a routerLink="linked-signal" routerLinkActive="active" class="nav-link px-2 text-white">Linked Signal</a>
+      </li>
+      <li><a routerLink="ng-for" routerLinkActive="active" class="nav-link px-2 text-white">Ng For</a></li>
+      <li><a routerLink="ng-if" routerLinkActive="active" class="nav-link px-2 text-white">Ng If</a></li>
+      <li><a routerLink="ng-style" routerLinkActive="active" class="nav-link px-2 text-white">Ng Style</a></li>
+      <li><a routerLink="ng-signal" routerLinkActive="active" class="nav-link px-2 text-white">Ng Signal</a></li>
+      <li><a routerLink="template-form" routerLinkActive="active" class="nav-link px-2 text-white">Template Form</a>
+      </li>
+      <li><a routerLink="reactive-form" routerLinkActive="active" class="nav-link px-2 text-white">Reactive Form</a>
+      </li>
+      <li><a routerLink="getApi" routerLinkActive="active" class="nav-link px-2 text-white">Get API</a></li>
+      <li><a routerLink="postApi" routerLinkActive="active" class="nav-link px-2 text-white">Post API</a></li>
+      <li><a routerLink="resourceApi" routerLinkActive="active" class="nav-link px-2 text-white">Resource API</a></li>
+      <li><a routerLink="customer" routerLinkActive="active" class="nav-link px-2 text-white">Customer</a></li>
+      <li><a routerLink="lifeCycle" routerLinkActive="active" class="nav-link px-2 text-white">Life Cycle Event</a></li>
+    </ul>
+
+    <button class="btn btn-success" type="button" (click)="loggOff()">Log Off</button>
+  </div>
+</header>
+
+<div>
+  <router-outlet></router-outlet>
+</div>

@@ -173,7 +173,27 @@ ngAfterView
 -how to create class ?
 -when to use class or interface ?
 
+------------------------------------------------------------------------
 
+	Topic: Login Page in Angular
+-How to Implement Login Page ?
+-What is Hard Code Login ?
+-How to Validate Use With API ?
+-guard
+
+admin
+	login
+	layout
+
+website
+-----------------------------------------------------------------------
+
+	Topic: viewChild in Angular
+-What is viewChild ?
+-How to create viewChild For Element Reference ?
+-How to create viewChild for Component Intance ?
+
+------------------------------------------------------------------------
 
 
 
