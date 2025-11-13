@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --primary-box-shadow: -7px -7px 20px 0 #fff9, -4px -4px 5px 0 #fff9, 7px 7px 20px 0 #0002, 4px 4px 5px 0 #0001, inset 0 0 0 0 #fff9, inset 0 0 0 0 #0001, inset 0 0 0 0 #fff9, inset 0 0 0 0 #0001;
+    --secondary-box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.6), -4px -4px 6px 0 rgba(116, 125, 136, 0.2), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.3), inset 4px 4px 6px 0 rgba(116, 125, 136, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #E5E8EF;
+}

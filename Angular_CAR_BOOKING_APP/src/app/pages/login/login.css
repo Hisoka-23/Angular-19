@@ -1,0 +1,130 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    max-width: 95%;
+    height: 420px;
+    background: linear-gradient(145deg, #F1F4FA, #CBCDD3);
+    border-radius: 20px;
+    padding-block: 24px;
+    box-shadow: var(--primary-box-shadow);
+}
+
+.title {
+    color: #5A5A5A;
+    font-weight: 800;
+    font-size: 1.1rem;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    position: relative;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+    height: 2px;
+    background: #ADAEB2;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #F1F4FA), #CBCDD3;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+input[type="email"],
+input[type="password"] {
+    box-shadow: var(--secondary-box-shadow);
+    padding-inline: 20px;
+    height: 49px;
+    width: 70%;
+}
+
+.button {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    box-shadow: var(--primary-box-shadow);
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    font-size: 1rem;
+    color: #5A5A5A;
+    position: relative;
+    z-index: 100;
+}
+
+.rip1,
+.rip2 {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    filter: blur(1px);
+}
+
+.rip1 {
+    background: linear-gradient(to bottom right, #FFF 0%, #C8D0E7 100%);
+    box-shadow: 0.4rem 0.4rem 0.8rem #C8D0E7, -0.4rem -0.4rem 0.8rem #FFF;
+    animation: waves 2s linear infinite;
+}
+
+.rip2 {
+    box-shadow: 0, 4rem 0.4rem 0.8rem #C8D0E7, -0.4rem -0.4rem 0.8rem #FFF;
+    animation: waves 1s linear infinite;
+}
+
+@keyframes waves {
+    0% {
+        transform: scale(0.7);
+        opacity: 1;
+        border-radius: 10px;
+    }
+
+    50% {
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+        border-radius: 20px;
+    }
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links>a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.links>a:hover {
+    font-weight: 800;
+}
